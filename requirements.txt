@@ -1,6 +1,0 @@
-django
-django-allauth
-django-multitenant
-django-dj-database-url
-psycopg2
-django-heroku

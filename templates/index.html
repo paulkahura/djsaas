@@ -1,0 +1,13 @@
+<!-- templates/index.html -->
+
+{% load socialaccount %}
+<h1>All Authetication Tutorial</h1>
+{% if user.is_authenticated %}
+<p>Welcome {{ user.username }} !!!</p>
+{% else %}
+<a href="{% provider_login_url 'github' %}">Register with Github</a>
+<a href="{% provider_login_url 'google' %}">Register with Google</a>
+<a href="{% provider_login_url 'instagram' %}">Register with Instagram</a>
+<a href="{% provider_login_url 'facebook' %}">Register with Facebook</a>
+<a href="{% provider_login_url 'slack' %}">Register with Slack</a>
+{% endif %}
