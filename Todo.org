@@ -1,0 +1,71 @@
+#+Title: Django Software As A Service Project Starter Template
+
+* SaaS Definition
+  A software as a service, offering some software online as a paid service.
+Income generating software. 
+  A project supporting user management, subscriptions, payments methods,
+Per User Data CRUD, isolated db and runtime environments, 3rd party integrations.
+
+An Intuitive, Modern, Responsive UX, User Friendliness.
+Easy Deployment, Testing, Extensibility, Modularity, OS independent
+** Target Project Attributes
+   + Easy Deployment
+   + Automated Testing and CI
+   + Estensible
+   + Modular
+   + OS Independent
+   + Multiple Data Storage Technologies Support
+   + 3rd Party Services Integrations
+   + Data Analytics and Usage Stats
+   + User Friendly, Intuitive, Sleek, Modern, Responsive
+   + Data Driven, Reactive
+   + Asynchronous, Realtime
+   + Multi-Language Support, Internalization
+* Implementing the SaaS
+** Prospective Technologies and Frameworks
+*** TODO Data and Database Layer
+    - Sqlite3
+    - MySQL
+    - PostgreSQL
+    - MongoDB
+    - NoSQL
+    - Amazon s3 buckets
+    - Google Cloud Firebase
+*** TODO Backend Controller
+    - Django
+    - Flask
+    - Laravel
+    - Nodejs
+*** TODO Frontend View
+    - Jinja2 templates
+    - React.js
+    - Vue.js
+    - Angular.js
+    - Bootstrap
+    - Font-Awesome
+** Django Framework
+*** Modules
+    1. django-allauth
+2. django-social
+3. django-stripe
+4. django-heroku
+5. django-multitenants
+   6. django-rest-framework
+*** Features Todo
+**** TODO Django Authentication, Social register
+**** TODO Django Multitenancy Support
+**** TODO Django Models
+**** TODO Django Views
+**** TODO A Rest API
+**** TODO Django Routing and Urls
+**** TODO Django Templates
+**** TODO Django Settings Config
+* Deployment, CI/CD
+** TODO Travis CI
+** TODO Gitlab Autodevops
+** TODO Docker
+** TODO Heroku
+** TODO AWS cloud
+** TODO Google Cloud
+** TODO PyPi
+** TODO Jenkins
